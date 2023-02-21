@@ -1,0 +1,48 @@
+.bmi-wrapper {
+  width: 40%;
+  margin: 0 auto;
+  border: 0.5px solid grey;
+  padding: 4rem 2rem;
+  font-size: 18px;
+  font-family: calibri;
+  border-radius: 8px;
+}
+.form-wrapper {
+  display: grid;
+  row-gap: 1rem;
+}
+.bmi-heading {
+  font-size: 2rem;
+  text-align: center;
+  color: #4f4f4f;
+}
+.bmi-input {
+  display: grid;
+}
+.bmi-input input {
+  padding: 12px 16px;
+  font-size: 18px;
+}
+.bmi-input input[type="submit"] {
+  padding: 12px 16px;
+  font-size: 18px;
+  background-color: rgb(69, 85, 126);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#output {
+  color: #4f4f4f;
+  font-size: 2rem;
+  text-align: center;
+}
+#status {
+  color: grey;
+  text-align: center;
+}
+#advice {
+  color: #4f4f4f;
+  padding: 0.5rem;
+  border-top: 0.5px solid #4f4f4f;
+  font-style: italic;
+}
